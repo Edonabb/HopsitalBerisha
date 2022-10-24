@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    background: url('../img/background.png');
+    background-position: 0 1000px;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+
+
+}
+
+.container-bio{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.container-bio h1{
+    color:#001149;
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+.container-bio h2{
+    color: #777;
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+.image{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    border-radius: 100%;
+    width: 90%;
+
+    
+}
+p{
+    font-size: 2rem;
+    color: rgb(80,80,80);
+    line-height: 5rem;
+    margin-bottom: 5rem;
+
+}
+.btn{
+    display:inline-block;
+    padding: 1.7rem 6.5rem;
+    background-color: #001149;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin-bottom: 5rem;
+
+}
+.btn:hover{
+    color: #777;
+}
+.img3{
+    width: 30%;
+    border-radius: 59%;
+}
+.img1{
+    width:30%;
+    border-radius: 59%;
+    
+}
+.img2{
+    width:30%;
+    border-radius: 59%;
+
+}
+.img4{
+    width:30%;
+    border-radius: 59%;
+
+}
+.img8{
+    width:30%;
+    border-radius: 59%;
+
+}
+.img7{
+
+    width:30%;
+    border-radius: 59%;
+}
+.img5{
+    width:30%;
+    border-radius: 59%;
+}
+.img6{
+    width:30%;
+    border-radius: 59%;
+}

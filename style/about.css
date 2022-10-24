@@ -1,0 +1,252 @@
+body{
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.header-logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.ul-a li a{
+    text-decoration: none;
+    color: #001149;
+    position: relative;
+    font-size: 18px;
+
+}
+.header-logo a{
+    text-decoration: none;
+}
+.ul-a li a:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0.17rem;
+    left: 0;
+    bottom: -10px;
+    background: #001149;
+    transition: 0.3s all ease-in;
+}
+.ul-a li a:hover::after{
+    width: 100%;
+
+
+}
+.logo{
+    width: 100px;
+}
+img{
+    width: 50%;
+}
+
+.header h2{
+    color: #001149;
+}
+.main-container__li{
+    margin-bottom: 100px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+li {
+    list-style: none;
+    color: #001149;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+} 
+.main-contanier2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-top: 76px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+     }
+.main-container2-content{
+    display: flex;
+    flex-direction: column;
+}
+.main-container2-content p{
+    width: 89%;
+}
+.main-container__li li a {
+    margin-top: 66px;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: #001149;
+    font-size: 20px;
+}
+
+.main-container__li li a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.header h2{
+    color: #001149;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+}
+li {
+    list-style: none;
+    color: #001149;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background:white;
+    width: 200px;
+    
+    
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color:red;
+    height:200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card h2,p{
+    text-align: center;
+    color:#001149;
+}
+ .doctor-1 {
+    background-image: url(../img/doctor1.png);
+
+
+}
+.doctor-2{
+    background-image: url(../img/doctor2.png);
+} 
+.doctor-3{
+    background-image: url(../img/doctor3.png);
+}
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: #001149;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover{
+    background-color: rgb(200,200, 200);
+}
+.contanier-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.doctor-4{
+  background-image: url(../img/doctor4.png);
+}
+.doctor-5{
+    background-image: url(../img/doctor5.png);
+}
+.doctor-6{
+    background-image: url(../img/doctor6.png);
+}
+.doctor-7{
+background-image: url(../img/doctor7.png);
+}
+.doctor-8{
+    background-image: url(../img/doctor8.png);
+}
+ .video{
+    display: flex;
+    gap: 7rem;
+    margin-bottom: 5rem;
+   
+} 
+.article-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    font-size: 30px;
+    color: #001149;
+  
+}
+footer{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color:rgb(250,250,250) ;
+    color:#001149;
+    align-items: center;
+    align-content: center;
+}
+.fa-brands{
+    color: rgb(0,0,128);
+    font-size: 30px;
+    margin: 0.5rem;
+}
+ a .fa-brands:hover{
+    transform: scale(1.1);
+    color:rgb(20,20,20);
+    border-radius: 40%;
+   }
+   footer h3{
+    color:#001149;
+    font-size: 15px;
+    
+    
+   }
+   .flex-h2 h2{
+    color:#001149;
+    font-size: 20px;
+    
+   }
+.article2{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+a{
+    text-decoration: none;
+}
+.titulli{
+ color: #001149;
+ font-size: 19px;
+}
